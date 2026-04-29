@@ -7,6 +7,7 @@ export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
+  // Define the navigation links with their paths and labels
   const links = [
     { path: "/", label: "Home" },
     { path: "/tour-areas", label: "Tour Areas" },
@@ -23,7 +24,7 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center gap-2">
             <img
-              src="/Tourismlogo.jpeg"
+              src="dist/Tourismlogo.jpeg"
               alt="Logo"
               className="h-10 w-auto rounded-full object-cover"
             />
