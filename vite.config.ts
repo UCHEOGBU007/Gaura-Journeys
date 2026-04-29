@@ -32,7 +32,7 @@ export default defineConfig({
       // Alias @ to the src directory
       "@": path.resolve(__dirname, "./src"),
       // Added explicit alias for assets to help with resolution
-      "@assets": path.resolve(__dirname, "./src/assets"),
+      "@assets": path.resolve(__dirname, "./src/assets", ".src/public"),
     },
   },
 
