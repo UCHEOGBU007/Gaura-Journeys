@@ -224,8 +224,7 @@ export function Home() {
           />
         </AnimatePresence>
 
-        <div className="absolute inset-0 bg-linear-to-r from-black/60 via-black/40 to-black/60" />
-
+        <div className="absolute inset-0 bg-linear-to-r from-[#173d8c]/70 via-[#173d8c]/50 to-[#173d8c]/70" />
         <div className="relative z-10 text-center text-white px-4">
           <AnimatePresence mode="wait">
             <motion.div
