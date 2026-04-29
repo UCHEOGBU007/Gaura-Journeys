@@ -23,7 +23,7 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center gap-2">
             <img
-              src="/Tourismlogo.jpeg"
+              src="Public/Tourismlogo.jpeg"
               alt="Logo"
               className="h-10 w-auto rounded-full object-cover"
             />
