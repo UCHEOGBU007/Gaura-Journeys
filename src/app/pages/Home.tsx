@@ -33,19 +33,19 @@ const heroSlides = [
       "Experience unforgettable journeys through pristine islands, ancient temples, and vibrant cultures.",
   },
   {
-    image: "Public/Bali2.jpeg",
+    image: "/Bali2.jpeg",
     title: "Escape to Paradise in Bali",
     description:
       "Unwind on Bali's stunning beaches, explore vibrant culture, and immerse yourself in unforgettable experiences.",
   },
   {
-    image: "Public/sumatera.jpeg",
+    image: "/sumatera.jpeg",
     title: "Witness the Majesty Lake  of Toba, Sumatera",
     description:
       " Experience the awe-inspiring beauty of Lake Toba, the largest volcanic lake in the world, surrounded by lush hills and traditional Batak culture.",
   },
   {
-    image: "Public/Kintamani.jpeg",
+    image: "/Kintamani.jpeg",
     title: "A Volcanic Adventure in Kintamani",
     description:
       "Explore the dramatic landscapes of an active volcano and its serene crater lake in Bali's highlands.",

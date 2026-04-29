@@ -17,7 +17,7 @@ export function Footer() {
             <div>
               <span className="flex items-center flex-row gap-5">
                 <img
-                  src="Public\Tourismlogo.jpeg"
+                  src="/Tourismlogo.jpeg"
                   alt="Logo"
                   className="h-10 w-auto rounded-full object-cover"
                 />

@@ -31,9 +31,28 @@ export default defineConfig({
     alias: {
       // Alias @ to the src directory
       "@": path.resolve(__dirname, "./src"),
+      // Added explicit alias for assets to help with resolution
+      "@assets": path.resolve(__dirname, "./src/assets"),
     },
   },
 
-  // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
-  assetsInclude: ["**/*.svg", "**/*.csv"],
+  // Build configuration to ensure Vercel maps the output correctly
+  build: {
+    outDir: "dist",
+    assetsDir: "assets",
+    // Ensure large images don't get base64 encoded into the JS bundle
+    assetsInlineLimit: 4096,
+  },
+
+  // Expanded to include common image formats missing from your original file
+  assetsInclude: [
+    "**/*.svg",
+    "**/*.csv",
+    "**/*.png",
+    "**/*.jpg",
+    "**/*.jpeg",
+    "**/*.gif",
+    "**/*.webp",
+    "**/*.ico",
+  ],
 });
