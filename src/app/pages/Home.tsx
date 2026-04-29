@@ -245,7 +245,7 @@ export function Home() {
                 to="/tour-areas"
                 className="text-xl inline-block bg-white text-[#173d8c] px-8 py-4 rounded-lg font-extrabold hover:bg-gray-300 hover:cursor-pointer hover:shadow-2xl transition-colors"
               >
-                Explore Tours
+                Explore Tour with us
               </Link>
             </motion.div>
           </AnimatePresence>
