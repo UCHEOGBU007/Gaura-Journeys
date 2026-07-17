@@ -131,7 +131,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="font-extrabold text-xxl hover:underline"
               >
-                Mr Smith
+                T-Solusions Group
               </a>
             </p>
           </div>
